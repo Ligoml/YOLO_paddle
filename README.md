@@ -2,7 +2,7 @@
 
 > 注：如果你想复现其他方向的论文，欢迎参考[《论文复现指南-nlp版》](https://github.com/PaddlePaddle/models/blob/release/2.2/docs/lwfx/ArticleReproduction_NLP.md)、[《论文复现指南-Rec版》](https://github.com/PaddlePaddle/models/blob/release/2.2/docs/lwfx/ArticleReproduction_REC.md)
 
-### 论文介绍
+## 论文介绍
 复现代码之前，先来认识一下我们要复现的经典检测模型 YOLO，这是一个端到端的目标检测算法，与之前的多阶段目标检测算法不同，YOLO 只需要进行一次 CNN 网络计算即可得到预测结果，这使得 YOLO 模型成为了业界公认的高精度、高效率、高实用性的模型。
 
 <div align='left'>
@@ -335,3 +335,8 @@ python checkpoint_5.py
 
 
 至此，你完整的完成了使用 PaddlePaddle 进行目标检测经典论文 YOLO 复现的工作，你可以把 `./YOLO_paddle/checkpoint_5/yolo_paddle` 下的代码整理后上传 GitHub，开源你的论文复现工作给更多的开发者，代码结构和文档可以参考[《REPO 提交规范》](https://github.com/PaddlePaddle/models/blob/release/2.2/community/REPO_TEMPLATE_DESC.md)。
+
+## 参考项目
+https://github.com/Ligoml/YOLOv1-PaddlePaddle
+https://github.com/yjh0410/new-YOLOv1_PyTorch
+https://github.com/AlexeyAB/darknet
