@@ -337,6 +337,6 @@ python checkpoint_5.py
 至此，你完整的完成了使用 PaddlePaddle 进行目标检测经典论文 YOLO 复现的工作，你可以把 `./YOLO_paddle/checkpoint_5/yolo_paddle` 下的代码整理后上传 GitHub，开源你的论文复现工作给更多的开发者，代码结构和文档可以参考[《REPO 提交规范》](https://github.com/PaddlePaddle/models/blob/release/2.2/community/REPO_TEMPLATE_DESC.md)。
 
 ## 参考项目
-- https://github.com/Ligoml/YOLOv1-PaddlePaddle
+- https://github.com/sunlizhuang/YOLOv1-PaddlePaddle
 - https://github.com/yjh0410/new-YOLOv1_PyTorch
 - https://github.com/AlexeyAB/darknet
