@@ -1,0 +1,3 @@
+[2021/12/22 17:19:52] root INFO: map: 
+[2021/12/22 17:19:52] root INFO: 	mean diff: check passed: False, value: 0.002985060214996338
+[2021/12/22 17:19:52] root INFO: diff check failed
