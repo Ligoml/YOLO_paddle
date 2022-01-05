@@ -1,4 +1,4 @@
-本项目使用飞桨 PaddlePaddle 复现目标检测经典论文 YOLO，参考[《论文复现指南-cv版》](https://github.com/PaddlePaddle/models/blob/tipc/docs/lwfx/ArticleReproduction_CV.md)，按照步骤一步步完成[第四期飞桨论文复现赛](https://aistudio.baidu.com/aistudio/competition/detail/106/0/task-definition)真题：[You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640)，并制作一期飞桨论文复现入门课，你可以在 [AIStudio](https://aistudio.baidu.com/aistudio/projectdetail/3261974) 快速体验论文复现工作。
+本项目使用飞桨 PaddlePaddle 复现目标检测经典论文 YOLO，参考[《论文复现指南-cv版》](https://github.com/PaddlePaddle/models/blob/tipc/docs/lwfx/ArticleReproduction_CV.md)，按照步骤一步步完成[第四期飞桨论文复现赛](https://aistudio.baidu.com/aistudio/competition/detail/106/0/task-definition)真题：[You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640)，并制作一期飞桨论文复现入门课，你可以在 [百度AIStudio](https://aistudio.baidu.com/aistudio/projectdetail/3261974) 快速体验论文复现工作。
 
 > 注：如果你想复现其他方向的论文，欢迎参考[《论文复现指南-nlp版》](https://github.com/PaddlePaddle/models/blob/release/2.2/docs/lwfx/ArticleReproduction_NLP.md)、[《论文复现指南-Rec版》](https://github.com/PaddlePaddle/models/blob/release/2.2/docs/lwfx/ArticleReproduction_REC.md)
 
@@ -48,9 +48,12 @@ YOLO_paddle
 ```
 
 ### 环境配置
-paddlepaddle>=2.2.0
-pytorch>=1.7.1
-[reprod_log](https://github.com/WenmuZhou/reprod_log)
+
+- paddlepaddle>=2.2.0
+- pytorch>=1.7.1
+- [reprod_log](https://github.com/WenmuZhou/reprod_log)
+
+> 注：你可以在 [百度AIStudio](https://aistudio.baidu.com/aistudio/projectdetail/3261974) 中快速启动，并按照文档提示完成各打卡点代码练习。
 
 ### 打卡点1：前向对齐（含Step1：模型结构对齐）
 对齐模型结构时，一般有3个主要步骤：
@@ -71,12 +74,13 @@ pytorch>=1.7.1
 > - 有些 torch API 在 paddle 并未对应，但可以组合实现，详细信息可查询：[官网 API 文档](https://www.paddlepaddle.org.cn/documentation/docs/zh/develop/api/index_cn.html)、[官网 FAQ](https://www.paddlepaddle.org.cn/documentation/docs/zh/faq/index_cn.html)等，或者提 [github issue](https://github.com/PaddlePaddle/Paddle/issues) 寻求解答。
 
 #### 1.2 权重转换
-输入一致，权重一致，输出一致 ─> 模型一致
-输入一致，权重一致，输出不一致 ─> 模型不一致
+- 输入一致，权重一致，输出一致 ─> 模型一致
+- 输入一致，权重一致，输出不一致 ─> 模型不一致
 
 我们可以通过随机生成假数据获得一致的输入，通过权重转换获得一致的权重，控制变量判断模型结构是否一致。
-随机生成假数据的代码放在 `./YOLO_paddle/fake_data/gen_fake_data.py`
-权重转换的代码放在 `./YOLO_paddle/weights_trans/torch2paddle.py`
+
+随机生成假数据的代码放在 `./YOLO_paddle/fake_data/gen_fake_data.py`，
+权重转换的代码放在 `./YOLO_paddle/weights_trans/torch2paddle.py`。
 
 > **注意事项**
 > 
@@ -300,7 +304,7 @@ python checkpoint_4.py
 [2021/12/18 22:09:28] root INFO: 	mean diff: check passed: False, value: 7.397504902684204e-05
 [2021/12/18 22:09:28] root INFO: diff check failed
 ```
-> 注：反向对齐会收到许多因素的影响，不一定可以严格对齐，通常我们认为连续两个迭代轮次符合阈值即可。
+> 注：反向对齐会受到许多因素的影响，不一定可以严格对齐，通常我们认为连续两个迭代轮次符合阈值即可。
 
 ### 打卡点5：精度对齐（含 Step9：训练集数据读取对齐、Step10：网络初始化对齐、Step11：训练对齐）
 
