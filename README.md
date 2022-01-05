@@ -39,7 +39,8 @@ YOLO 是如何实现"只用看一次"就得到目标检测框和物体分类结�
 YOLO_paddle
 ├─┬─ checkpoint_1
   ├───yolo_paddle
-  └───yolo_torch
+  ├───yolo_torch
+  └───checkpoint_1.py
 ├─── checkpoint_2
 ├─── checkpoint_3
 ├─── checkpoint_4
