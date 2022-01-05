@@ -1,0 +1,23 @@
+[2021/12/18 21:34:30] root INFO: length: 
+[2021/12/18 21:34:30] root INFO: 	mean diff: check passed: True, value: 0.0
+[2021/12/18 21:34:30] root INFO: dataset_0: 
+[2021/12/18 21:34:30] root INFO: 	mean diff: check passed: True, value: 0.0
+[2021/12/18 21:34:30] root INFO: dataset_1: 
+[2021/12/18 21:34:30] root INFO: 	mean diff: check passed: True, value: 0.0
+[2021/12/18 21:34:30] root INFO: dataset_2: 
+[2021/12/18 21:34:30] root INFO: 	mean diff: check passed: True, value: 0.0
+[2021/12/18 21:34:30] root INFO: dataset_3: 
+[2021/12/18 21:34:30] root INFO: 	mean diff: check passed: True, value: 0.0
+[2021/12/18 21:34:30] root INFO: dataset_4: 
+[2021/12/18 21:34:30] root INFO: 	mean diff: check passed: True, value: 0.0
+[2021/12/18 21:34:30] root INFO: dataloader_0: 
+[2021/12/18 21:34:30] root INFO: 	mean diff: check passed: True, value: 0.0
+[2021/12/18 21:34:30] root INFO: dataloader_1: 
+[2021/12/18 21:34:30] root INFO: 	mean diff: check passed: True, value: 0.0
+[2021/12/18 21:34:30] root INFO: dataloader_2: 
+[2021/12/18 21:34:30] root INFO: 	mean diff: check passed: True, value: 0.0
+[2021/12/18 21:34:30] root INFO: dataloader_3: 
+[2021/12/18 21:34:30] root INFO: 	mean diff: check passed: True, value: 0.0
+[2021/12/18 21:34:30] root INFO: dataloader_4: 
+[2021/12/18 21:34:30] root INFO: 	mean diff: check passed: True, value: 0.0
+[2021/12/18 21:34:30] root INFO: diff check passed
