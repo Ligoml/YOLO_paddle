@@ -37,7 +37,9 @@ YOLO 是如何实现"只用看一次"就得到目标检测框和物体分类结�
 接下来，我们将参考上图复现流程，逐步对齐并通过打卡点，复现 YOLO 模型。各步骤代码详见： 
 ```
 YOLO_paddle
-├─── checkpoint_1
+├─┬─ checkpoint_1
+  ├───yolo_paddle
+  └───yolo_torch
 ├─── checkpoint_2
 ├─── checkpoint_3
 ├─── checkpoint_4
