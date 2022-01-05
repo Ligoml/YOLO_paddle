@@ -326,8 +326,8 @@ python checkpoint_5.py
 
 ### 模型预测效果展示
 <div align='left'>
-  <img src='https://github.com/Ligoml/YOLO_paddle/output_img/000001.jpg' width='300'/>
-  <img src='https://github.com/Ligoml/YOLO_paddle/output_img/000001_predict.jpg' width='300'/>
+  <img src='https://github.com/Ligoml/YOLO_paddle/blob/main/output_img/000001.jpg' width='300'/>
+  <img src='https://github.com/Ligoml/YOLO_paddle/blob/main/output_img/000001_predict.jpg' width='300'/>
 </div>
 
 
