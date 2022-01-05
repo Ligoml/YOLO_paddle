@@ -1,0 +1,9 @@
+[2021/12/18 15:29:03] root INFO: conf_loss: 
+[2021/12/18 15:29:03] root INFO: 	mean diff: check passed: True, value: 5.982089037459559e-07
+[2021/12/18 15:29:03] root INFO: cls_loss: 
+[2021/12/18 15:29:03] root INFO: 	mean diff: check passed: True, value: 7.152557373046875e-07
+[2021/12/18 15:29:03] root INFO: txtytwth_loss: 
+[2021/12/18 15:29:03] root INFO: 	mean diff: check passed: True, value: 4.291534423828125e-06
+[2021/12/18 15:29:03] root INFO: total_loss: 
+[2021/12/18 15:29:03] root INFO: 	mean diff: check passed: True, value: 3.2164883627672225e-06
+[2021/12/18 15:29:03] root INFO: diff check passed
