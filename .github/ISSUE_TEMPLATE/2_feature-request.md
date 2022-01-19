@@ -1,6 +1,6 @@
 ---
-name: 2_Feature Request
-about: Suggest an idea for this project
+name: 🚀 新需求（Feature request）
+about: 提交一个你对paddle的新需求（Submit a request for a new Paddle feature）
 title: ''
 labels: ''
 assignees: ''
