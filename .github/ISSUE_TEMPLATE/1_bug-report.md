@@ -1,6 +1,6 @@
 ---
-name: 1_Bug Report
-about: Create a report to help us improve
+name: 🐛 报 BUG（Bug Report）
+about: 报告一个可复现的BUG帮助我们修复框架（Report a bug to help us reproduce and fix it）
 title: ''
 labels: ''
 assignees: ''
