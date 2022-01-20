@@ -1,0 +1,63 @@
+name: 🗂 安装（Build/Installation Issue）
+description: 报告一个安装问题（Report an issue related to build or install Paddle）
+labels: [type/bug, status/new-issue]
+
+body:
+- type: markdown
+  attributes:
+    value: >
+      #### 安装请参考官网：https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/develop/install/pip/linux-pip.html，若未能解决你的问题，你可以在这里提issue。
+      Before submitting a Build/Installation Issue, Please make sure you have visited the official website：https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/develop/install/pip/linux-pip.html.
+
+- type: textarea
+  id: environment
+  attributes:
+    label: 版本、环境信息（Version, environment information）
+    description: |
+      1）PaddlePaddle版本：请提供您的PaddlePaddle版本号（如1.1）或CommitID
+      2）CPU：请提供CPU型号，MKL/OpenBlas/MKLDNN/等数学库的使用情况
+      3）GPU：请提供GPU型号，CUDA和CUDNN版本号
+      4）系统环境：请说明系统类型、版本（如Mac OS 10.14）、Python版本
+      注：您可以通过执行[summary_env.py](https://github.com/PaddlePaddle/Paddle/blob/develop/tools/summary_env.py)获取以上信息。
+      some english...
+  validations:
+    required: true
+    
+- type: textarea
+  id: installation
+  attributes:
+    label: 安装方式信息（Installation method information）
+    description: |
+      1）pip安装/docker安装
+      2）本地编译：请提供cmake命令，编译命令
+      3）docker编译：请提供docker镜像，编译命令           
+      特殊环境请注明：如离线安装等
+      some english...
+  validations:
+    required: true
+    
+- type: textarea
+  id: installation
+  attributes:
+    label: 报错信息（error message）
+    description: |
+      如为报错，请给出复现环境、复现步骤
+      some english...
+  validations:
+    required: true
+    
+- type: textarea
+  id: installation
+  attributes:
+    label: 问题描述（Problem Description）
+    description: |
+      请详细描述您的问题，同步贴出报错信息、日志/代码关键片段
+      some english...
+  validations:
+    required: true
+    
+- type: markdown
+  attributes:
+    value: >
+      感谢你的贡献 🎉！
+      Thanks for contributing 🎉!
