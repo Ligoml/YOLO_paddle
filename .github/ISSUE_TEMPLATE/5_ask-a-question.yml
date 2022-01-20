@@ -26,7 +26,7 @@ body:
 - type: textarea
   id: consultation
   attributes:
-    label: 咨询问题（consultation）
+    label: 咨询问题（Consultation）
     description: |
       提问之前请确保：
       1）已经百度/谷歌搜索过你的问题，但是没有找到解答；
