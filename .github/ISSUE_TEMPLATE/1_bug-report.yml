@@ -13,8 +13,6 @@ body:
     label: bug复现环境（）
     description: |
       请提供bug复现环境。
-    placeholder: |
-
   validations:
     required: true
     
@@ -58,8 +56,6 @@ body:
     description: |
       请简要描述期望结果。
       Please xxxx
-    placeholder: |
-
   validations:
     required: true
     
@@ -70,16 +66,12 @@ body:
     description: |
       请展示实际结果，并描述区别。
       Please xxxx
-    placeholder: |
-
   validations:
     required: true
     
 - type: textarea
   attributes:
-    label: 其他补充
-    description: |
-      
+    label: 其他补充   
   validations:
     required: false
     
