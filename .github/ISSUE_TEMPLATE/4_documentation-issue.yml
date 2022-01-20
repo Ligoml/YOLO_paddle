@@ -1,0 +1,38 @@
+name: 📚 文档（Documentation Issue）
+about: 报告一个官网文档错误（Report an issue related to https://www.paddlepaddle.org.cn/）
+labels: [type/docs, status/new-issue]
+
+body:
+- type: markdown
+  attributes:
+    value: >
+      #### 请确认报告的错误来自PaddlePaddle官网文档：https://www.paddlepaddle.org.cn/
+      Before submitting a Documentation Issue, Please make sure that issue is related to https://www.paddlepaddle.org.cn/.
+
+- type: textarea
+  id: link
+  attributes:
+    label: 文档链接（）
+    description: |
+      龙哥自己写吧自己写吧...
+      some english...
+  validations:
+    required: true
+
+
+- type: textarea
+  id: error
+  attributes:
+    label: 错误描述（）
+    description: |
+      龙哥自己写吧自己写吧...
+      some english...
+  validations:
+    required: false
+    
+- type: markdown
+  attributes:
+    value: >
+      感谢你的贡献 🎉！
+      Thanks for contributing 🎉!
+
