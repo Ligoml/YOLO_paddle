@@ -13,7 +13,7 @@ body:
 - type: textarea
   id: environment
   attributes:
-    label: bug复现环境（）
+    label: bug复现环境（bug reproduction environment）
     description: |
       请提供bug复现环境。
       Please provide bug reproduction environment.
@@ -23,7 +23,7 @@ body:
 - type: textarea
   id: code
   attributes:
-    label: bug复现步骤及最小代码集（）
+    label: bug复现步骤及最小代码集（Bug reproduction steps and minimal code set）
     description:  |
       请提供bug复现步骤及最小代码集。 
       Please provide a clear and concise description of what the bug is.
@@ -58,7 +58,7 @@ body:
 - type: textarea
   id: Desired-result
   attributes:
-    label: 期望结果
+    label: 期望结果（Desired result）
     description: |
       请简要描述期望结果。
       Please briefly describe the expected output.
@@ -69,7 +69,7 @@ body:
 - type: textarea
   id: actual-result
   attributes:
-    label: 实际结果
+    label: 实际结果（actual result）
     description: |
       请展示实际结果，并描述区别。
       Please show actual results and describe the difference.
