@@ -1,17 +1,28 @@
 
 name: 🐛 报 BUG（Bug Report）
 description: 报告一个可复现的BUG帮助我们修复框架（Report a bug to help us reproduce and fix it）
-labels: [type/bug]
+labels: [type/bug, status/new-issue]
 
 body:
 - type: markdown
   attributes:
     value: >
-      #### Before submitting a bug, please make sure the issue hasn't been already addressed by searching through [the existing and past issues](https://github.com/pytorch/pytorch/issues?q=is%3Aissue+sort%3Acreated-desc+).
+      #### 在向Paddle报bug之前，请先查询历史issue是否报过同样的bug。（Before submitting a bug, please make sure the issue hasn't been already addressed by searching through [the existing and past issues](https://github.com/Ligoml/YOLO_paddle/issues).）
 - type: textarea
   attributes:
-    label: 🐛 Describe the bug
+    label: bug复现环境（）
     description: |
+      请提供bug复现环境。
+    placeholder: |
+
+  validations:
+    required: true
+    
+- type: textarea
+  attributes:
+    label: bug复现步骤及最小代码集（）
+    description:  |
+      请提供bug复现步骤及最小代码集。
       Please provide a clear and concise description of what the bug is.
 
       If relevant, add a minimal example so that we can reproduce the error by running the code. It is very important for the snippet to be as succinct (minimal) as possible, so please take time to trim down any irrelevant code to help us debug efficiently. We are going to copy-paste your code and we expect to get the same result as you did: avoid any external data, and include the relevant imports, etc. For example:
@@ -40,18 +51,38 @@ body:
       ```
   validations:
     required: true
+    
 - type: textarea
   attributes:
-    label: Versions
+    label: 期望结果
     description: |
-      Please run the following and paste the output below.
-      ```sh
-      wget https://raw.githubusercontent.com/pytorch/pytorch/master/torch/utils/collect_env.py
-      # For security purposes, please check the contents of collect_env.py before running it.
-      python collect_env.py
-      ```
+      请简要描述期望结果。
+      Please xxxx
+    placeholder: |
+
   validations:
     required: true
+    
+    
+- type: textarea
+  attributes:
+    label: 实际结果
+    description: |
+      请展示实际结果，并描述区别。
+      Please xxxx
+    placeholder: |
+
+  validations:
+    required: true
+    
+- type: textarea
+  attributes:
+    label: 其他补充
+    description: |
+      
+  validations:
+    required: false
+    
 - type: markdown
   attributes:
     value: >
