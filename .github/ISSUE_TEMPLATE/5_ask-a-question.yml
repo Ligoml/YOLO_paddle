@@ -1,0 +1,38 @@
+name: 🙋🏼‍♀️🙋🏻‍♂️提问（Ask a Question）
+description: 提出一个使用/咨询问题（Ask a usage or consultation question）
+labels: [type/build, status/new-issue]
+
+body:
+- type: markdown
+  attributes:
+    value: >
+      #### 你可以在这里提出一个使用/咨询问题
+      Ask a usage or consultation question
+
+- type: textarea
+  id: usage
+  attributes:
+    label: 使用问题（Usage）
+    description: |
+      提问之前请确保：
+      1）已经百度/谷歌搜索过你的问题，但是没有找到解答；
+      2）已经在官网查询过API文档与FAQ，但是没有找到解答；
+      3）已经在历史issue中搜索过，没有找到同类issue或issue未被解答；
+      4）已经阅读过如下文档：xxxx
+      some english...
+  validations:
+    required: false
+
+- type: textarea
+  id: consultation
+  attributes:
+    label: 咨询问题（consultation）
+    description: |
+      提问之前请确保：
+      1）已经百度/谷歌搜索过你的问题，但是没有找到解答；
+      2）已经在官网查询过API文档与FAQ，但是没有找到解答；
+      3）已经在历史issue中搜索过，没有找到同类issue或issue未被解答；
+      4）已经阅读过如下文档：xxxx
+      some english...
+  validations:
+    required: false
