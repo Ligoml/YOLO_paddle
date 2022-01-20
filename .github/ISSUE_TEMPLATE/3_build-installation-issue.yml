@@ -37,7 +37,7 @@ body:
     required: true
     
 - type: textarea
-  id: installation
+  id: error
   attributes:
     label: 报错信息（error message）
     description: |
@@ -47,7 +47,7 @@ body:
     required: true
     
 - type: textarea
-  id: installation
+  id: Problem
   attributes:
     label: 问题描述（Problem Description）
     description: |
