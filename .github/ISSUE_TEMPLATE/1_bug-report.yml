@@ -8,7 +8,7 @@ body:
   attributes:
     value: >
       #### 在向Paddle报bug之前，请先查询历史issue是否报过同样的bug。
-      #### Before submitting a bug, please make sure the issue hasn't been already addressed by searching through [the existing and past issues](https://github.com/Ligoml/YOLO_paddle/issues).
+      Before submitting a bug, please make sure the issue hasn't been already addressed by searching through [the existing and past issues](https://github.com/Ligoml/YOLO_paddle/issues).
 
 - type: textarea
   id: environment
