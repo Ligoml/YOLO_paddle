@@ -1,6 +1,6 @@
 name: 🙋🏼‍♀️🙋🏻‍♂️提问（Ask a Question）
 description: 提出一个使用/咨询问题（Ask a usage or consultation question）
-labels: [type/build, status/new-issue]
+labels: [type/question, status/new-issue]
 
 body:
 - type: markdown
