@@ -7,14 +7,16 @@ body:
 - type: markdown
   attributes:
     value: >
-      #### 在向Paddle报bug之前，请先查询历史issue是否报过同样的bug。（Before submitting a bug, please make sure the issue hasn't been already addressed by searching through [the existing and past issues](https://github.com/Ligoml/YOLO_paddle/issues).）
+      #### 在向Paddle报bug之前，请先查询历史issue是否报过同样的bug。
+      #### Before submitting a bug, please make sure the issue hasn't been already addressed by searching through [the existing and past issues](https://github.com/Ligoml/YOLO_paddle/issues).
 
 - type: textarea
-  id: area
+  id: environment
   attributes:
     label: bug复现环境（）
     description: |
       请提供bug复现环境。
+      Please provide bug reproduction environment.
   validations:
     required: true
     
@@ -23,7 +25,7 @@ body:
   attributes:
     label: bug复现步骤及最小代码集（）
     description:  |
-      请提供bug复现步骤及最小代码集。
+      请提供bug复现步骤及最小代码集。 
       Please provide a clear and concise description of what the bug is.
 
       If relevant, add a minimal example so that we can reproduce the error by running the code. It is very important for the snippet to be as succinct (minimal) as possible, so please take time to trim down any irrelevant code to help us debug efficiently. We are going to copy-paste your code and we expect to get the same result as you did: avoid any external data, and include the relevant imports, etc. For example:
@@ -59,7 +61,7 @@ body:
     label: 期望结果
     description: |
       请简要描述期望结果。
-      Please xxxx
+      Please briefly describe the expected output.
   validations:
     required: true
     
@@ -70,7 +72,7 @@ body:
     label: 实际结果
     description: |
       请展示实际结果，并描述区别。
-      Please xxxx
+      Please show actual results and describe the difference.
   validations:
     required: true
     
