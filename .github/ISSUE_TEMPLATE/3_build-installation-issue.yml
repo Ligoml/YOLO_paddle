@@ -44,7 +44,7 @@ body:
       如为报错，请给出复现环境、复现步骤
       some english...
   validations:
-    required: true
+    required: false
     
 - type: textarea
   id: Problem
