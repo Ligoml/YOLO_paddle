@@ -1,0 +1,56 @@
+name: 🚀 新需求（Feature Request）
+description: 提交一个你对paddle的新需求（Submit a request for a new Paddle feature）
+labels: [type/feature-request, status/new-issue]
+
+body:
+- type: markdown
+  attributes:
+    value: >
+      #### 提出你对paddle的新需求
+      Submit a request for a new Paddle feature
+
+- type: textarea
+  id: description
+  attributes:
+    label: 需求描述（Feature Description）
+    description: |
+      请具体描述需求场景、功能内容等信息。
+      Please xxx.
+  validations:
+    required: true
+    
+- type: textarea
+  id: reference
+  attributes:
+    label: 竞品参考（Competitive reference）
+    description: |
+      请介绍竞品实现情况
+      Please xxx.
+  validations:
+    required: false
+    
+- type: textarea
+  id: alternatives
+  attributes:
+    label: 替代实现（Alternatives）
+    description: |
+      你考虑过的任何替代解决方案或功能的描述（如果有）
+      A description of any alternative solutions or features you've considered, if any.
+  validations:
+    required: false
+    
+- type: textarea
+  id: others
+  attributes:
+    label: 补充信息（Additional context）
+    description: |
+      其他相关的补充信息。
+      Add any other context or screenshots about the feature request.
+  validations:
+    required: false
+    
+- type: markdown
+  attributes:
+    value: >
+      感谢你的贡献 🎉！
+      Thanks for contributing 🎉!
