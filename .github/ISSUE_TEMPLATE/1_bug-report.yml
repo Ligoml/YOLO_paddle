@@ -8,7 +8,9 @@ body:
   attributes:
     value: >
       #### 在向Paddle报bug之前，请先查询历史issue是否报过同样的bug。（Before submitting a bug, please make sure the issue hasn't been already addressed by searching through [the existing and past issues](https://github.com/Ligoml/YOLO_paddle/issues).）
+
 - type: textarea
+  id: area
   attributes:
     label: bug复现环境（）
     description: |
@@ -17,6 +19,7 @@ body:
     required: true
     
 - type: textarea
+  id: code
   attributes:
     label: bug复现步骤及最小代码集（）
     description:  |
@@ -51,6 +54,7 @@ body:
     required: true
     
 - type: textarea
+  id: Desired-result
   attributes:
     label: 期望结果
     description: |
@@ -61,6 +65,7 @@ body:
     
     
 - type: textarea
+  id: actual-result
   attributes:
     label: 实际结果
     description: |
@@ -70,6 +75,7 @@ body:
     required: true
     
 - type: textarea
+  id: others
   attributes:
     label: 其他补充   
   validations:
