@@ -1,6 +1,5 @@
 name: 🧩 其他（Others）
 description: 提出其他问题（Report any other non-support related issues）
-title: ''
 labels: [type/others, status/new-issue]
 
 body:
@@ -14,7 +13,7 @@ body:
 - type: textarea
   id: others
   attributes:
-    label: 
+    label: 其他（Others）
     description: |
       一些引导性描述
       some english...
