@@ -7,7 +7,8 @@ body:
   attributes:
     value: >
       #### 请确认报告的错误来自PaddlePaddle官网文档：https://www.paddlepaddle.org.cn/
-      Before submitting a Documentation Issue, Please make sure that issue is related to https://www.paddlepaddle.org.cn/.
+      
+      #### Before submitting a Documentation Issue, Please make sure that issue is related to https://www.paddlepaddle.org.cn/.
 
 - type: textarea
   id: link
@@ -34,5 +35,6 @@ body:
   attributes:
     value: >
       感谢你的贡献 🎉！
+      
       Thanks for contributing 🎉!
 
