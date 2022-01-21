@@ -1,0 +1,31 @@
+name: 🧩 其他（Others）
+description: 提出其他问题（Report any other non-support related issues）
+title: ''
+labels: [type/others, status/new-issue]
+
+body:
+- type: markdown
+  attributes:
+    value: >
+      #### 你可以在这里提出任何问题
+      
+      Report any other non-support related issues
+
+- type: textarea
+  id: others
+  attributes:
+    label: 
+    description: |
+      一些引导性描述
+      some english...
+  validations:
+    required: true
+    
+- type: markdown
+  attributes:
+    value: >
+      感谢你的贡献 🎉！
+      
+      Thanks for contributing 🎉!
+
+
