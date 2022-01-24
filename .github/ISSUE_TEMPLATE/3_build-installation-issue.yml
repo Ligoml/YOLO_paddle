@@ -51,7 +51,7 @@ body:
       6. (optional) If you encounter problems during the installation process, please provide the installation method (pip/conda/docker/source code compilation) and the corresponding installation command. 
       7. (optional) If you encounter problems related to not being able to use gpu during the paddle process, please type `nvidia-smi` and `nvcc -V` in the command line, and provide screenshots of the output of these two commands. 
       8. (optional) If special hardware is used, please indicate it separately. 
-    placeholder:
+    placeholder: |
       ****************************************
       Paddle version: 
       Paddle With CUDA: 
