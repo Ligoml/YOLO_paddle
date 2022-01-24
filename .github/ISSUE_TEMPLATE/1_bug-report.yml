@@ -34,7 +34,7 @@ body:
       print('Is c requires grad: ', not c.stop_gradient) # 注意：这里出现了bug，期望 requires_grad=True
       ```
       如果代码太长，请将可执行代码放到[AIStudio](https://aistudio.baidu.com/aistudio/index)中并将项目设置为公开，请在项目中描述清楚bug复现步骤，在issue中描述期望结果与实际结果。
-      如果你报告的是一个报错信息，请将完整回溯的报错贴在这里，并使用 ````三引号块````展示错误信息。
+      如果你报告的是一个报错信息，请将完整回溯的报错贴在这里，并使用 ` ```三引号块``` `展示错误信息。
       
       Please provide a clear and concise description of what the bug is.
       If relevant, add a minimal example so that we can reproduce the error by running the code. It is very important for the snippet to be as succinct (minimal) as possible, so please take time to trim down any irrelevant code to help us debug efficiently. We are going to copy-paste your code and we expect to get the same result as you did: avoid any external data, and include the relevant imports, etc. For example:
@@ -55,7 +55,7 @@ body:
       print('Is c requires grad: ', not c.stop_gradient) # Note: the bug is here, expect requires_grad=True
       ```
       If the code is too long (hopefully, it isn't), please put the executable code in [AIStudio](https://aistudio.baidu.com/aistudio/index?lang=en) and set the project as public, please describe the bug reproduction steps clearly in the project, and describe the expected results & the results you observe in the issue.
-      If you observe an error, please paste the error message including the full traceback of the exception. It may be relevant to wrap error messages in ```triple quotes blocks```.
+      If you observe an error, please paste the error message including the full traceback of the exception. It may be relevant to wrap error messages in ` ```triple quotes blocks``` `.
       
     placeholder: |
       请清晰简洁的描述这个bug。
