@@ -32,14 +32,14 @@ body:
       python3 summary_env.py
       ```
       若运行脚本出现问题，请在issue中说明，并提供以下信息：
-      1）PaddlePaddle版本：请提供您的PaddlePaddle版本号（如2.0.0）或CommitID。
-      2）CPU：请提供CPU型号，MKL/OpenBlas/MKLDNN/等数学库的使用情况，是否支持AVX指令集。
+      1）PaddlePaddle版本：请提供你的PaddlePaddle版本号（如2.0.0）或CommitID。
+      2）（可选）CPU：请提供CPU型号，MKL/OpenBlas/MKLDNN/等数学库的使用情况，是否支持AVX指令集。
       3）GPU：请提供GPU型号，CUDA（如cuda10.2）和CUDNN版本号（如cudnn7.6.5）。
       4）系统环境：请说明系统类型、版本（如Mac OS 10.14）。
       5）Python版本（如python 3.7）。
-      6）若安装过程遇到问题，请提供安装方式（pip/conda/docker/源码编译）和相应的安装命令。（可选）
-      7）若使用paddle过程中，遇到了无法使用gpu相关问题，请在命令行中键入nvidia-smi和nvcc -V，提供这两个命令输出的截图。（可选）
-      8）若使用特殊硬件，请单独注明。（可选）
+      6）（可选）若安装过程遇到问题，请提供安装方式（pip/conda/docker/源码编译）和相应的安装命令。
+      7）（可选）若使用paddle过程中，遇到了无法使用gpu相关问题，请在命令行中键入nvidia-smi和nvcc -V，提供这两个命令输出的截图。
+      8）（可选）若使用特殊硬件，请单独注明。
       
       some english...
   validations:
