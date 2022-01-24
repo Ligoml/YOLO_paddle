@@ -6,7 +6,7 @@ body:
 - type: markdown
   attributes:
     value: >
-      #### 请确认反馈的问题来自PaddlePaddle官网文档：https://www.paddlepaddle.org.cn/。
+      #### 请确认反馈的问题来自PaddlePaddle官网文档：https://www.paddlepaddle.org.cn/ 。
       
       #### Before submitting a Documentation Issue, Please make sure that issue is related to https://www.paddlepaddle.org.cn/.
 
