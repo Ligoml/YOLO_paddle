@@ -23,7 +23,7 @@ body:
 - type: textarea
   id: environment
   attributes:
-    label: 版本、环境信息（Version, environment information）
+    label: 版本、环境信息（Version, Environment Information）
     description: |
       1）PaddlePaddle版本：请提供您的PaddlePaddle版本号（如1.1）或CommitID
       2）CPU：请提供CPU型号，MKL/OpenBlas/MKLDNN/等数学库的使用情况
