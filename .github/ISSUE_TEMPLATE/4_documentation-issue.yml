@@ -16,8 +16,7 @@ body:
     label: 文档链接&描述（Document Links & Description）
     description: |
       请说明有问题的文档链接以及该文档存在的问题。
-      Please fill in the link to the document and the question.
-      Please fill in the link of the document.
+      Please fill in the link to the document and describe the question.
   validations:
     required: true
 
@@ -25,10 +24,10 @@ body:
 - type: textarea
   id: error
   attributes:
-    label: 请提出你的建议/提个PR修复这个问题
+    label: 请提出你的建议/提个PR修复这个问题（Please give your suggestion/update a PR to fix this issue）
     description: |
-      请告诉我们，该如何改进这个文档。
-      Please tell us how to improve this document.
+      请告诉我们，你希望如何改进这个文档。
+      Please tell us how you would like to improve this document.
       
   validations:
     required: false
