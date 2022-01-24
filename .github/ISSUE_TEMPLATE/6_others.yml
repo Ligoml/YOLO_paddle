@@ -14,9 +14,6 @@ body:
   id: others
   attributes:
     label: 请描述你的问题（Please describe your issue）
-    description: |
-      一些引导性描述
-      some english...
   validations:
     required: true
     
