@@ -29,7 +29,7 @@ body:
       Please run the following and paste the output below.
       ```shell
       wget https://raw.githubusercontent.com/PaddlePaddle/Paddle/develop/tools/summary_env.py
-      pip install distro
+      python3 -m pip install distro
       python3 summary_env.py
       ```
       若运行脚本出现问题，请在issue中说明，并提供以下信息：
@@ -39,10 +39,18 @@ body:
       4）系统环境：请说明系统类型、版本（如Mac OS 10.14）。
       5）Python版本（如python 3.7）。
       6）（可选）若安装过程遇到问题，请提供安装方式（pip/conda/docker/源码编译）和相应的安装命令。
-      7）（可选）若使用paddle过程中，遇到了无法使用gpu相关问题，请在命令行中键入nvidia-smi和nvcc -V，提供这两个命令输出的截图。
+      7）（可选）若使用paddle过程中，遇到了无法使用gpu相关问题，请在命令行中键入`nvidia-smi`和`nvcc -V`，提供这两个命令输出的截图。
       8）（可选）若使用特殊硬件，请单独注明。
       
-      some english...
+      If you have trouble running the script, please mention it in the issue and provide the following information:
+      1) PaddlePaddle version: Please provide your PaddlePaddle version number (eg 2.0.0) or CommitID.
+      2) CPU(optional): Please provide the CPU model, the usage of math libraries such as MKL/OpenBlas/MKLDNN/, and whether it supports the AVX instruction set.
+      3) GPU: Please provide GPU model, CUDA version number (eg cuda10.2) and CUDNN version number (eg cudnn7.6.5).
+      4) System environment: Please specify the system type and version (eg Mac OS 10.14).
+      5) Python version (eg python 3.7).
+      6) (optional) If you encounter problems during the installation process, please provide the installation method (pip/conda/docker/source code compilation) and the corresponding installation command. 
+      7) (optional) If you encounter problems related to not being able to use gpu during the paddle process, please type `nvidia-smi` and `nvcc -V` in the command line, and provide screenshots of the output of these two commands. 
+      8) (optional) If special hardware is used, please indicate it separately. 
   validations:
     required: true
     
