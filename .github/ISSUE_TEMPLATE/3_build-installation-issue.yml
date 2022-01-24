@@ -52,17 +52,17 @@ body:
       7. (optional) If you encounter problems related to not being able to use gpu during the paddle process, please type `nvidia-smi` and `nvcc -V` in the command line, and provide screenshots of the output of these two commands. 
       8. (optional) If special hardware is used, please indicate it separately. 
     placeholder:
-    ****************************************
-    Paddle version: 
-    Paddle With CUDA: 
+      ****************************************
+      Paddle version: 
+      Paddle With CUDA: 
     
-    OS: 
-    Python version: 
+      OS: 
+      Python version: 
     
-    CUDA version: 
-    cuDNN version: 
-    Nvidia driver version: 
-    ****************************************
+      CUDA version: 
+      cuDNN version: 
+      Nvidia driver version: 
+      ****************************************
   validations:
     required: true
     
