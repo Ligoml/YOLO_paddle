@@ -6,10 +6,20 @@ body:
 - type: markdown
   attributes:
     value: >
-      #### 安装请参考官网：https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/develop/install/pip/linux-pip.html ，若未能解决你的问题，你可以在这里提issue。
+      #### 安装请参考[官网文档](https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/develop/install/pip/linux-pip.html)，若未能解决你的问题，你可以在这里提issue。
       
-      #### Before submitting a Build/Installation Issue, Please make sure you have visited the official website：https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/develop/install/pip/linux-pip.html.
+      #### Before submitting a Build/Installation Issue, Please make sure you have visited the [official website](https://www.paddlepaddle.org.cn/documentation/docs/en/install/index_en.html).     
 
+- type: textarea
+  id: error
+  attributes:
+    label: 问题描述（Issue Description）
+    description: |
+      请详细描述你的问题，同步贴出报错信息、日志/代码关键片段、复现步骤，以便我们快速排查问题。
+      Please describe your problem in detail, and synchronously post the error message, key log/code snippet, and reproduction steps, so that we can quickly troubleshoot the problem.
+  validations:
+    required: true
+    
 - type: textarea
   id: environment
   attributes:
@@ -24,38 +34,6 @@ body:
   validations:
     required: true
     
-- type: textarea
-  id: installation
-  attributes:
-    label: 安装方式信息（Installation method information）
-    description: |
-      1）pip安装/docker安装
-      2）本地编译：请提供cmake命令，编译命令
-      3）docker编译：请提供docker镜像，编译命令           
-      特殊环境请注明：如离线安装等
-      some english...
-  validations:
-    required: true
-    
-- type: textarea
-  id: error
-  attributes:
-    label: 报错信息（error message）
-    description: |
-      如为报错，请给出复现环境、复现步骤
-      some english...
-  validations:
-    required: false
-    
-- type: textarea
-  id: Problem
-  attributes:
-    label: 问题描述（Problem Description）
-    description: |
-      请详细描述您的问题，同步贴出报错信息、日志/代码关键片段
-      some english...
-  validations:
-    required: true
     
 - type: markdown
   attributes:
