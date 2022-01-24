@@ -25,7 +25,7 @@ body:
   attributes:
     label: 替代实现（Alternatives）
     description: |
-      描述下你考虑过的任何替代解决方案或功能（如果有）。
+      请描述下你考虑过的任何替代解决方案或功能（如果有）。
       A description of any alternative solutions or features you've considered, if any.
   validations:
     required: false
