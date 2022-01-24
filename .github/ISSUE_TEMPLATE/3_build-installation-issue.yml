@@ -8,7 +8,7 @@ body:
     value: >
       #### 安装请参考[官网文档](https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/develop/install/pip/linux-pip.html)，若未能解决你的问题，你可以在这里提issue。
       
-      #### Before submitting a Build/Installation Issue, Please make sure you have visited the [official website](https://www.paddlepaddle.org.cn/documentation/docs/en/install/index_en.html).     
+      #### Before submitting a Build/Installation Issue, please make sure you have visited the [official website](https://www.paddlepaddle.org.cn/documentation/docs/en/install/index_en.html).     
 
 - type: textarea
   id: error
