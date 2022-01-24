@@ -23,13 +23,24 @@ body:
 - type: textarea
   id: environment
   attributes:
-    label: 版本、环境信息（Version, Environment Information）
+    label: 版本&环境信息（Version & Environment Information）
     description: |
-      1）PaddlePaddle版本：请提供你的PaddlePaddle版本号（如1.1）或CommitID
-      2）CPU：请提供CPU型号，MKL/OpenBlas/MKLDNN/等数学库的使用情况
-      3）GPU：请提供GPU型号，CUDA和CUDNN版本号
-      4）系统环境：请说明系统类型、版本（如Mac OS 10.14）、Python版本
-      注：您可以通过执行[summary_env.py](https://github.com/PaddlePaddle/Paddle/blob/develop/tools/summary_env.py)获取以上信息。
+      你可以通过运行脚本[summary_env.py](https://github.com/PaddlePaddle/Paddle/blob/develop/tools/summary_env.py)获取版本&环境信息，并将输出拷贝在这里。
+      ```shell
+      wget https://raw.githubusercontent.com/PaddlePaddle/Paddle/develop/tools/summary_env.py
+      pip install distro
+      python3 summary_env.py
+      ```
+      若运行脚本出现问题，请在issue中说明，并提供以下信息：
+      1）PaddlePaddle版本：请提供您的PaddlePaddle版本号（如2.0.0）或CommitID。
+      2）CPU：请提供CPU型号，MKL/OpenBlas/MKLDNN/等数学库的使用情况，是否支持AVX指令集。
+      3）GPU：请提供GPU型号，CUDA（如cuda10.2）和CUDNN版本号（如cudnn7.6.5）。
+      4）系统环境：请说明系统类型、版本（如Mac OS 10.14）。
+      5）Python版本（如python 3.7）。
+      6）若安装过程遇到问题，请提供安装方式（pip/conda/docker/源码编译）和相应的安装命令。（可选）
+      7）若使用paddle过程中，遇到了无法使用gpu相关问题，请在命令行中键入nvidia-smi和nvcc -V，提供这两个命令输出的截图。（可选）
+      8）若使用特殊硬件，请单独注明。（可选）
+      
       some english...
   validations:
     required: true
