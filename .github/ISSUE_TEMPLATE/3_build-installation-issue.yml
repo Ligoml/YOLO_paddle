@@ -25,7 +25,8 @@ body:
   attributes:
     label: 版本&环境信息（Version & Environment Information）
     description: |
-      你可以通过运行脚本[summary_env.py](https://github.com/PaddlePaddle/Paddle/blob/develop/tools/summary_env.py)获取版本&环境信息，并将输出拷贝在这里。
+      请运行脚本[summary_env.py](https://github.com/PaddlePaddle/Paddle/blob/develop/tools/summary_env.py)获取版本&环境信息，并将输出拷贝在这里。
+      Please run the following and paste the output below.
       ```shell
       wget https://raw.githubusercontent.com/PaddlePaddle/Paddle/develop/tools/summary_env.py
       pip install distro
