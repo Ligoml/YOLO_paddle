@@ -15,38 +15,18 @@ body:
   attributes:
     label: 需求描述（Feature Description）
     description: |
-      请具体描述需求场景、功能内容等信息。
-      Please xxx.
+      请尽可能包含需求场景、功能描述、使用频次等信息，全面的信息有利于我们准确评估你的需求。
+      Please include as much information as possible, such as demand scenarios, function descriptions, and usage frequency. Comprehensive information will help us accurately assess your feature request.
   validations:
     required: true
-    
-- type: textarea
-  id: reference
-  attributes:
-    label: 竞品参考（Competitive reference）
-    description: |
-      请介绍竞品实现情况
-      Please xxx.
-  validations:
-    required: false
     
 - type: textarea
   id: alternatives
   attributes:
     label: 替代实现（Alternatives）
     description: |
-      你考虑过的任何替代解决方案或功能的描述（如果有）
+      描述下你考虑过的任何替代解决方案或功能（如果有）。
       A description of any alternative solutions or features you've considered, if any.
-  validations:
-    required: false
-    
-- type: textarea
-  id: others
-  attributes:
-    label: 补充信息（Additional context）
-    description: |
-      其他相关的补充信息。
-      Add any other context or screenshots about the feature request.
   validations:
     required: false
     
