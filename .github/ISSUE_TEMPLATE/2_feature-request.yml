@@ -6,9 +6,9 @@ body:
 - type: markdown
   attributes:
     value: >
-      #### 提出你对paddle的新需求
+      #### 你可以在这里提出你对paddle的新需求，包括但不限于：功能或模型缺失、功能不全或无法使用、精度/性能不符合预期等。
       
-      #### Submit a request for a new Paddle feature
+      #### You could submit a request for a new Paddle feature here, including but not limited to: new features or models, incomplete or unusable features, accuracy/performance not as expected, etc.
 
 - type: textarea
   id: description
