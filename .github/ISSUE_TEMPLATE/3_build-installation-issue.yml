@@ -43,14 +43,14 @@ body:
       8）（可选）若使用特殊硬件，请单独注明。
       
       If you have trouble running the script, please mention it in the issue and provide the following information:
-      1) PaddlePaddle version: Please provide your PaddlePaddle version number (eg 2.0.0) or CommitID.
-      2) CPU(optional): Please provide the CPU model, the usage of math libraries such as MKL/OpenBlas/MKLDNN/, and whether it supports the AVX instruction set.
-      3) GPU: Please provide GPU model, CUDA version number (eg cuda10.2) and CUDNN version number (eg cudnn7.6.5).
-      4) System environment: Please specify the system type and version (eg Mac OS 10.14).
-      5) Python version (eg python 3.7).
-      6) (optional) If you encounter problems during the installation process, please provide the installation method (pip/conda/docker/source code compilation) and the corresponding installation command. 
-      7) (optional) If you encounter problems related to not being able to use gpu during the paddle process, please type `nvidia-smi` and `nvcc -V` in the command line, and provide screenshots of the output of these two commands. 
-      8) (optional) If special hardware is used, please indicate it separately. 
+      1.PaddlePaddle version: Please provide your PaddlePaddle version number (eg 2.0.0) or CommitID.
+      2.CPU(optional): Please provide the CPU model, the usage of math libraries such as MKL/OpenBlas/MKLDNN/, and whether it supports the AVX instruction set.
+      3.GPU: Please provide GPU model, CUDA version number (eg cuda10.2) and CUDNN version number (eg cudnn7.6.5).
+      4.System environment: Please specify the system type and version (eg Mac OS 10.14).
+      5.Python version (eg python 3.7).
+      6.(optional) If you encounter problems during the installation process, please provide the installation method (pip/conda/docker/source code compilation) and the corresponding installation command. 
+      7.(optional) If you encounter problems related to not being able to use gpu during the paddle process, please type `nvidia-smi` and `nvcc -V` in the command line, and provide screenshots of the output of these two commands. 
+      8.(optional) If special hardware is used, please indicate it separately. 
   validations:
     required: true
     
