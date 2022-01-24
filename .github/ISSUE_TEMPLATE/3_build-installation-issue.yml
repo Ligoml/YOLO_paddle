@@ -25,7 +25,7 @@ body:
   attributes:
     label: 版本、环境信息（Version, Environment Information）
     description: |
-      1）PaddlePaddle版本：请提供您的PaddlePaddle版本号（如1.1）或CommitID
+      1）PaddlePaddle版本：请提供你的PaddlePaddle版本号（如1.1）或CommitID
       2）CPU：请提供CPU型号，MKL/OpenBlas/MKLDNN/等数学库的使用情况
       3）GPU：请提供GPU型号，CUDA和CUDNN版本号
       4）系统环境：请说明系统类型、版本（如Mac OS 10.14）、Python版本
