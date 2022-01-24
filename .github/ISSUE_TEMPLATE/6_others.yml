@@ -13,7 +13,7 @@ body:
 - type: textarea
   id: others
   attributes:
-    label: 请描述你的问题（Please describe your issue）
+    label: 问题描述（Please describe your issue）
   validations:
     required: true
     
