@@ -27,8 +27,6 @@ body:
       - 4) You have read the following documents: xxxx
       
       
-      some english...
-      
 
 - type: textarea
   id: question
