@@ -34,6 +34,4 @@ body:
   id: question
   attributes:
     label: 请提出你的问题（Please ask your question）
-    description: |
-  validations:
     required: true
