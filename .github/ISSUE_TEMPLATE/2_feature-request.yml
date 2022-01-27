@@ -11,13 +11,23 @@ body:
       #### You could submit a request for a new Paddle feature here, including but not limited to: new features or models, incomplete or unusable features, accuracy/performance not as expected, etc.
 
 - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+      
+- type: textarea
   id: description
   attributes:
     label: 需求描述（Feature Description）
-    value:
+    description: |
       请尽可能包含需求场景、功能描述、使用频次等信息，全面的信息有利于我们准确评估你的需求。
       Please include as much information as possible, such as demand scenarios, function descriptions, and usage frequency. Comprehensive information will help us accurately assess your feature request.
-    placeholder: |
+    value: |
       任务目标（请描述您正在做的项目是什么，如模型、论文、项目是什么？）：
       
       需求场景（请描述您的项目中为什么需要用此功能）：
