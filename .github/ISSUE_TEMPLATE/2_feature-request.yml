@@ -11,14 +11,14 @@ body:
       #### You could submit a request for a new Paddle feature here, including but not limited to: new features or models, incomplete or unusable features, accuracy/performance not as expected, etc.
 
 - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
+  id: what-happened
+  attributes:
+    label: What happened?
+    description: Also tell us, what did you expect to happen?
+    placeholder: Tell us what you see!
+    value: "A bug happened!"
+  validations:
+    required: true
       
 - type: textarea
   id: description
