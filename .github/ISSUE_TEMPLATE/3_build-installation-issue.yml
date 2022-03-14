@@ -1,5 +1,5 @@
 name: 🗂 安装 Build/Installation Issue
-description: 报告一个安装问题 Report an issue related to build or install Paddle
+description: 报告一个安装问题。 Report an issue related to build or install Paddle.
 labels: [type/build, status/new-issue]
 
 body:
