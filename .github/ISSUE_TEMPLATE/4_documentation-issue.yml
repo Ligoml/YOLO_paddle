@@ -1,5 +1,5 @@
-name: 📚 文档（Documentation Issue）
-description: 反馈一个官网文档错误（Report an issue related to https://www.paddlepaddle.org.cn/）
+name: 📚 文档 Documentation Issue
+description: 反馈一个官网文档错误 Report an issue related to https://www.paddlepaddle.org.cn/
 labels: [type/docs, status/new-issue]
 
 body:
@@ -13,7 +13,7 @@ body:
 - type: textarea
   id: link
   attributes:
-    label: 文档链接&描述（Document Links & Description）
+    label: 文档链接&描述 Document Links & Description
     description: |
       请说明有问题的文档链接以及该文档存在的问题。
       Please fill in the link to the document and describe the question.
@@ -24,7 +24,7 @@ body:
 - type: textarea
   id: error
   attributes:
-    label: 请提出你的建议/提个PR修复这个问题（Please give your suggestion/update a PR to fix this issue）
+    label: 请提出你的建议/提个PR修复这个问题 Please give your suggestion/update a PR to fix this issue
     description: |
       请告诉我们，你希望如何改进这个文档。
       Please tell us how you would like to improve this document.
@@ -35,7 +35,5 @@ body:
 - type: markdown
   attributes:
     value: >
-      感谢你的贡献 🎉！
-      
-      Thanks for your contribution 🎉!
+      感谢你的贡献 🎉！Thanks for your contribution 🎉!
 
