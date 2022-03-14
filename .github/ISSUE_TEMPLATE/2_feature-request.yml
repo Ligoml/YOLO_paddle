@@ -1,5 +1,5 @@
-name: 🚀 新需求（Feature Request）
-description: 提交一个你对Paddle的新需求（Submit a request for a new Paddle feature）
+name: 🚀 新需求 Feature Request
+description: 提交一个你对Paddle的新需求 Submit a request for a new Paddle feature
 labels: [type/feature-request, status/new-issue]
 
 body:
