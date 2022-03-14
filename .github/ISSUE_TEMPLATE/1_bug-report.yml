@@ -1,6 +1,6 @@
 
 name: 🐛 报BUG Bug Report
-description: 报告一个可复现的BUG帮助我们修复框架 Report a bug to help us reproduce and fix it
+description: 报告一个可复现的BUG帮助我们修复框架。 Report a bug to help us reproduce and fix it.
 labels: [type/bug, status/new-issue]
 
 body:
