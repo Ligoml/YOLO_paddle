@@ -1,5 +1,5 @@
 name: 📚 文档 Documentation Issue
-description: 反馈一个官网文档错误 Report an issue related to https://www.paddlepaddle.org.cn/
+description: 反馈一个官网文档错误。 Report an issue related to https://www.paddlepaddle.org.cn/.
 labels: [type/docs, status/new-issue]
 
 body:
