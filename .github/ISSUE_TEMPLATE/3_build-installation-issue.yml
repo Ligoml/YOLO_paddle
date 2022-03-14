@@ -1,5 +1,5 @@
-name: 🗂 安装（Build/Installation Issue）
-description: 报告一个安装问题（Report an issue related to build or install Paddle）
+name: 🗂 安装 Build/Installation Issue
+description: 报告一个安装问题 Report an issue related to build or install Paddle
 labels: [type/build, status/new-issue]
 
 body:
@@ -13,7 +13,7 @@ body:
 - type: textarea
   id: error
   attributes:
-    label: 问题描述（Issue Description）
+    label: 问题描述 Issue Description
     description: |
       请详细描述你的问题，同步贴出报错信息、日志/代码关键片段、复现步骤，以便我们快速排查问题。
       Please describe your problem in detail, and synchronously post the error message, key log/code snippet, and reproduction steps, so that we can quickly troubleshoot the problem.
@@ -23,7 +23,7 @@ body:
 - type: textarea
   id: environment
   attributes:
-    label: 版本&环境信息（Version & Environment Information）
+    label: 版本&环境信息 Version & Environment Information
     description: |
       请参考以下命令运行脚本[summary_env.py](https://github.com/PaddlePaddle/Paddle/blob/develop/tools/summary_env.py)获取版本&环境信息，并将输出拷贝在这里。
       Please run the following and paste the output below.
@@ -42,15 +42,7 @@ body:
       7. （可选）若使用paddle过程中，遇到了无法使用gpu相关问题，请在命令行中键入`nvidia-smi`和`nvcc -V`，提供这两个命令输出的截图。
       8. （可选）若使用特殊硬件，请单独注明。
       
-      If you have trouble running the script, please mention it in the issue and provide the following information:
-      1. PaddlePaddle version: Please provide your PaddlePaddle version number (eg 2.0.0) or CommitID.
-      2. CPU(optional): Please provide the CPU model, the usage of math libraries such as MKL/OpenBlas/MKLDNN/, and whether it supports the AVX instruction set.
-      3. GPU: Please provide GPU model, CUDA version number (eg cuda10.2) and CUDNN version number (eg cudnn7.6.5).
-      4. System environment: Please specify the system type and version (eg Mac OS 10.14).
-      5. Python version (eg python 3.7).
-      6. (optional) If you encounter problems during the installation process, please provide the installation method (pip/conda/docker/source code compilation) and the corresponding installation command. 
-      7. (optional) If you encounter problems related to not being able to use gpu during the paddle process, please type `nvidia-smi` and `nvcc -V` in the command line, and provide screenshots of the output of these two commands. 
-      8. (optional) If special hardware is used, please indicate it separately. 
+     
     placeholder: |
       ****************************************
       Paddle version: 
@@ -70,6 +62,4 @@ body:
 - type: markdown
   attributes:
     value: >
-      感谢你的贡献 🎉！
-      
-      Thanks for your contribution 🎉!
+      感谢你的贡献 🎉！Thanks for your contribution 🎉!
