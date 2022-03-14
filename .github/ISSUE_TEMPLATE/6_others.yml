@@ -1,5 +1,5 @@
-name: 🧩 其他（Others）
-description: 提出其他问题（Report any other non-support related issues）
+name: 🧩 其他 Others
+description: 提出其他问题 Report any other non-support related issues
 labels: [type/others, status/new-issue]
 
 body:
@@ -13,15 +13,13 @@ body:
 - type: textarea
   id: others
   attributes:
-    label: 问题描述（Please describe your issue）
+    label: 问题描述 Please describe your issue
   validations:
     required: true
     
 - type: markdown
   attributes:
     value: >
-      感谢你的贡献 🎉！
-      
-      Thanks for your contribution 🎉!
+      感谢你的贡献 🎉！ Thanks for your contribution 🎉!
 
 
