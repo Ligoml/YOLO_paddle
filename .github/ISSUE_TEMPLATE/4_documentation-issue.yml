@@ -24,7 +24,7 @@ body:
 - type: textarea
   id: error
   attributes:
-    label: 请提出你的建议/提个PR修复这个问题 Please give your suggestion/update a PR to fix this issue
+    label: 请提出你的建议/提个PR修复这个问题 Please give your suggestion/update a PR to fix it
     description: |
       请告诉我们，你希望如何改进这个文档。
       Please tell us how you would like to improve this document.
