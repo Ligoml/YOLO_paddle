@@ -17,11 +17,7 @@ body:
     description: |
       请尽可能包含需求场景、功能描述、使用频次等信息，全面的信息有利于我们准确评估你的需求。
       Please include as much information as possible, such as demand scenarios, function descriptions, and usage frequency. Comprehensive information will help us accurately assess your feature request.
-    value: "任务目标（请描述您正在做的项目是什么，如模型、论文、项目是什么？）; 
-    
-    " 需求场景（请描述您的项目中为什么需要用此功能）; 
-    
-    " 功能描述（请简单描述或设计这个功能）"
+    value: "任务目标（请描述您正在做的项目是什么，如模型、论文、项目是什么？）; 需求场景（请描述您的项目中为什么需要用此功能）; 功能描述（请简单描述或设计这个功能）"
   validations:
     required: true
     
