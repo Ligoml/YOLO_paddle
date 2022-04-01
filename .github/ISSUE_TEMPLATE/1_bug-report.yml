@@ -7,9 +7,9 @@ body:
 - type: markdown
   attributes:
     value: >
-      #### 在向Paddle报bug之前，请先查询[历史issue](https://github.com/Ligoml/YOLO_paddle/issues)是否报过同样的bug。
+      #### 在向Paddle报bug之前，请先查询[历史issue](https://github.com/PaddlePaddle/Paddle/issues)是否报过同样的bug。
       
-      #### Before submitting a bug, please make sure the issue hasn't been already addressed by searching through [the existing and past issues](https://github.com/Ligoml/YOLO_paddle/issues).
+      #### Before submitting a bug, please make sure the issue hasn't been already addressed by searching through [the existing and past issues](https://github.com/PaddlePaddle/Paddle/issues).
 
 - type: textarea
   id: code
