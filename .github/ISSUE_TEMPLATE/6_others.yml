@@ -6,9 +6,9 @@ body:
 - type: markdown
   attributes:
     value: >
-      #### 你可以在这里提出任何前面几类模板不适用的问题，包括但不限于：优化性建议、框架使用体验反馈、版本兼容性问题、报错信息不清楚、报告框架安全漏洞等。
+      #### 你可以在这里提出任何前面几类模板不适用的问题，包括但不限于：优化性建议、框架使用体验反馈、版本兼容性问题、报错信息不清楚等。
       
-      #### You can report any issues that are not applicable to the previous types of templates, including but not limited to: enhancement suggestions, feedback on the use of the framework, version compatibility issues, unclear error information, report a security vulnerability, etc.
+      #### You can report any issues that are not applicable to the previous types of templates, including but not limited to: enhancement suggestions, feedback on the use of the framework, version compatibility issues, unclear error information, etc.
 
 - type: textarea
   id: others
