@@ -1,6 +1,6 @@
 name: 📝 评估 Eval Issue
-description: 第三期分布式文档数据并行体验评估报告。Distributed document evaluation working group.
-labels: []
+description: 文档评估工作小组。 Document evaluation working group.
+labels: [eval]
 
 body:
 - type: markdown
