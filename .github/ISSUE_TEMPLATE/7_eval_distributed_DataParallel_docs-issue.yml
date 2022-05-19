@@ -16,24 +16,32 @@ body:
       # 项目一体验评估报告及代码
       
 - type: textarea
-  id: link
+  id: task1
   attributes:
-    label: 文档中英文链接
+    label: 认领任务名称
     description: |
-      请输入你评估的文档链接（需含中英文两个链接）。请注意评估文档要是develop版本。
+      请输入您认领的任务名称，并附上链接（如果有）。
+      例：【CV】使用卷积神经网络进行图像分类
   validations:
     required: true
 
 - type: textarea
   id: eval1
   attributes:
-    label: 红线问题
+    label: 体验评测表格
     description: |
-      请按照如下维度评估本篇文档，如有红线问题，请在以下文本框中说明。
-      - API文档对该API的描述，是否与API的行为保持一致？
-      - API文档提供的示例代码能否跑通？
-      - 中英文API文档的内容是否严格一致？
+      请针对问卷模板提供的维度，评估本篇文档。您可以直接将#填好的问卷表格复制到此处#。
+      - 序号	核心步骤	完成情况（成功/不成功）	遇到问题	解决方法（无法解决需注明） 对应文档是否描述清晰（如不清晰，需注明问题并提供文档链接）
   validations:
+    required: true
+
+ - type: textarea
+   id: eval1
+   attributes:
+     label: 其他问题或建议
+     description: |
+      如果有其他问题或建议，请您详细描述。
+   validations:
     required: false
 
 - type: textarea
